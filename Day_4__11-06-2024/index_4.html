@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 4</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+      .mary_box {
+        color: red;
+        background-color: green;
+        border: 3px solid orangered;
+      }
+
+      #mary_george_box {
+        /* color: green;
+        background-color: grey;
+        border: 2px solid orangered; */
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>CSS</h2>
+      <p>CSS means cascading style sheet.</p>
+      <p>
+        It is used to style an HTML element. It describes how an html page
+        should be displayed.
+      </p>
+    </div>
+
+    <div>
+      <h2>You have different(three) kinds of way to style an HTML page.</h2>
+      <p>Inline styling, Internal styling and external styling</p>
+      <br /><br />
+
+      <div>
+        <h2>Inline styling</h2>
+        <h4 style="color: orangered; background-color: indigo">
+          I am a text styled using an inline styling.
+        </h4>
+        <p>
+          An inline styling is done when you pass a 'style' attribute into the
+          html element and start passing the styles into it.
+        </p>
+      </div>
+      <div>
+        <h2>Internal styling</h2>
+        <h4 class="mary_box">
+          I am a text styled using an internal styling through a class.
+        </h4>
+        <div id="mary_george_box">
+          I am a text styled using an internal styling through an id.
+        </div>
+        <p>
+          An internal styling is done by passing all of your styles inside a
+          'style' tag inside the 'head' element. You must give the element you
+          wish to style either a class or an ID
+        </p>
+      </div>
+
+      <div>
+        <h2>External styling</h2>
+        <h4 class="external_box_1">I am a text styled using an external styling through a class.</h4>
+        <h4 id="external_box_2">I am a text styled using an external styling through an id.</h4>
+        <p>
+          An external styling is also like an internal styling but here, all
+          your styles will be in an external css sheet(file).  You must give the element you
+          wish to style either a class or an ID
+        </p>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
