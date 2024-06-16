@@ -1,0 +1,24 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {  
+    border: 1px solid #dddddd;   /* where #dddddd is called a hexadecimal(hexadecimal) color */
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  tr:nth-child(odd) {
+    background-color: forestgreen;
+    color: white;
+  }
+
+  h2, p {
+    color: red;
+  }
