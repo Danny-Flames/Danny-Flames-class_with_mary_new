@@ -1,0 +1,29 @@
+
+.form-control {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 300px;
+}
+
+.form-control-header {
+    
+}
+
+.opacity-applied {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 10px 20px 10px 20px;  /* top right bottom left */
+    opacity: 1;
+}
+
+.faded-out {
+    opacity: 0;
+}
+
+.display-applied {
+    display: none;
+}
