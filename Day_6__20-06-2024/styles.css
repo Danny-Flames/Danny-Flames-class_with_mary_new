@@ -1,0 +1,27 @@
+
+.yellow-container {
+    background-color: burlywood;
+    width: 900px;
+    height: 550px;
+    border-radius: 6px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;  /* horizontal axis:   flex-start, center, flex-end, space-between, space-evenly */
+    align-items: flex-start;      /* vertical axis:   flex-start, center, flex-end */
+}
+
+.child {
+    border: 1px solid red;
+    border-radius: 4px;
+    height: 150px;
+}
+
+.child-2 {
+    /* align-self: flex-start; */
+    flex-grow: 1;
+}
+
+.child-4 {
+    /* align-self: flex-end; */
+    flex-grow: 2;
+}
