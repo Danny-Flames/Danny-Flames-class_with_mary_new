@@ -1,0 +1,35 @@
+
+.parent-container {
+    background-color: burlywood;
+    border: 2px solid orangered;
+    border-radius: 4px;
+    height: 500px;
+    width: 800px;
+    position: relative;
+}
+
+.child-container {
+    background-color: white;
+    color: black;
+    border: 1px solid red;
+    border-radius: 4px;
+    width: 150px;
+    padding: 60px;
+}
+
+.child-container-1 {
+    position: absolute;  
+    /* left: 66%; */
+    right: 0%;
+    /* top: 72%; */
+    bottom: 0%;
+}
+
+.child-container-2 {
+    position: absolute;  
+    bottom: 0%;
+}
+
+.child-container-3 {
+    position: absolute;
+}
