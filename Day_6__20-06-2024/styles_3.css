@@ -1,0 +1,11 @@
+
+.children{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ border: solid green;
+}
+.box{
+  border: solid red;
+}
