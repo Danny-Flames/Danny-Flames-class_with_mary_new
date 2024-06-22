@@ -7,7 +7,7 @@
 var myName = 'Mary';
 const favorite_fruit = 'Apple';
 let myAge = '10';
-
+ 
 console.log('Hello mary, we are learning javascript.')
 
 // The difference between 'const' and 'let' is that when you declare(create) a variable with the 
