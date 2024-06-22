@@ -35,3 +35,12 @@ console.log(addNum())
 // Create a function of any name, create 3 variables holding Number data type, using addition sign(+)
 // and subtraction sign(-) to do the computation.  eg:  12 + 4 - 6, return the value of the computation 
 // in the function and ensure to log this returned value to the console.
+
+function maryGeorge() {
+    let firstNum = 20;
+    let secondNum = 10;
+    let thirdNum = 5;
+    return firstNum + secondNum - thirdNum
+}
+
+console.log(maryGeorge())
