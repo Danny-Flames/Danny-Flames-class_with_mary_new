@@ -72,3 +72,10 @@ console.log(displayUserNameAndAge('Samuel', 6))
 // Write a student program that accepts four arguments:  name, school, course, currentLevel and then print a 
 // valid sentence telling the user his/her full details based off the arguments passed.
 
+function studentDetails(name, school, course, currentLevel){
+    var studentInfo ='My name is ' + name + '.The name of my school is ' + school + '.I am in ' + currentLevel +
+     ' presently' + ', department of ' + course + '.';
+     return studentInfo
+}
+
+console.log(studentDetails('Mary', 'Unical', 'Human Nutrition and Dietetics', '300L'))
