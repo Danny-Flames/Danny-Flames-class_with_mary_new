@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.practice-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid red;
+}
+
+.practice-container-main {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 60px 50px;
+    background-color: white;
+    /* background-color: forestgreen; */
+}
+
+.practice-container-inner {
+    /* border: 1px solid #dadada; */
+    /* border-radius: 4px; */
+}
+
+.practice-header {
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.practice-container-inner input {
+    width: 340px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    height: 48px;
+}
+
+.bordered-box {
+    border: 1px solid white;
+    margin: 20px 0;
+}
+
+.form-group {
+    position: relative;
+}
+
+.news-letter-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.issue-2 {
+    position: relative;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.issue-2 .box1 {
+    border-top: 1px solid black;
+}
+
+.issue-2 .box2 {
+    position: absolute;
+    top: -25%;
+    padding: 0 50px;
+    background-color: white;
+    color: black;
+    left: 32%;
+}
+
+.test {
+    height: 80px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 30px;
+}
+
+.test-box1 {
+    background-color: orangered;
+}
+
+.test-box2 {
+    background-color: forestgreen;
+    margin-top: -30px;
+}
+
+.test-box3 {
+    background-color: violet;
+    margin-top: -30px;
+}
