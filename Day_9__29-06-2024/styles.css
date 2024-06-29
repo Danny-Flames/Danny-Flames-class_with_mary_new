@@ -40,3 +40,31 @@
     bottom: 0;
     left: 0;
 }
+
+.btn_box {
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 40px 10px;
+}
+
+#logBtn {
+    background-color: forestgreen;
+    color: white;
+    padding: 18px 24px;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+}
+
+/* Pseudo classes */
+#logBtn:hover {
+    background-color: white;
+    color: forestgreen;
+    border: 1px solid forestgreen;
+    cursor: pointer;
+}
+
+.box_margin {
+    margin-top: 30px;
+}
