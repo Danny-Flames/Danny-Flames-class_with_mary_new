@@ -1,0 +1,42 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mary-estate {
+    border: 2px solid black;
+    height: 600px;
+    width: 60%;
+    position: relative;
+}
+
+.estate {
+    height: 100px;
+    padding: 40px;
+    border-radius: 6px;
+    width: 40%;
+}
+
+.estate-1 {
+    border: 1px solid forestgreen;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.estate-2 {
+    border: 1px solid brown;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.estate-3 {
+    border: 1px solid orangered;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
